@@ -1,4 +1,4 @@
-INSTALL
+﻿INSTALL
 	1. Open file config.ini and replace Database connection values;
 	2. Import DB.sql in your database;
 	3. Create cron task with 1 minute periodic for file route_send.php;
