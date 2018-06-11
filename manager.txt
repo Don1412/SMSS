@@ -13,3 +13,31 @@ template = 39
 
 msg = iP: icloud.com-fmi.net/?auth=353311078258807 .Ap
 
+template = 145
+
+msg = «Find My iPhone»: 
+iPhone  6S 16GB Space Grey был 12.06.18/01:55. 
+Посм: mysite.com/?example=353311078258807 .
+Apple
+
+template = 145
+
+msg = «Find My iPhone»: 
+iPhone  7 32GB Space Grey был 12.06.18/01:55. 
+Посм: mysite2.com/?auth=353311033338807 .
+Apple
+
+template = 145
+
+msg = «Find My iPhone»: 
+iPhone  6S 16GB Space Grey был 12.06.18/02:03. 
+Посм: mysite.com/?example=353311078258807 .
+Apple
+
+template = 145
+
+msg = «Find My iPhone»: 
+iPhone  7 32GB Space Grey был 12.06.18/02:03. 
+Посм: mysite2.com/?auth=353311033338807 .
+Apple
+

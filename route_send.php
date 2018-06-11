@@ -145,7 +145,6 @@ while($row = mysql_fetch_assoc($res))
 			$c = mysql_query("SELECT COUNT(*) FROM `log2_full` WHERE `key` = '$key' AND `number` = '$num'");
 			mysql_query("UPDATE `log2` SET `dlr_id` = '$id' WHERE `key` = '$key'");
 			mysql_query("INSERT INTO `log2_full` (`key`, `number`, `timeToSend`, `status`, `dlr_id`, `message`, `name`) VALUES ('$key', '$num', '$timeToSend', '$status', '$id', '$message', '$sender')") or die(mysql_error());
-			mysql_query("INSERT INTO `log2_full_tmp` (`key`, `number`, `timeToSend`, `status`, `dlr_id`, `message`, `name`) VALUES ('$key', '$num', '$timeToSend', '$status', '$id', '$message', '$sender')") or die(mysql_error());
 		}
 		$str .= "key - ".$key." sender - ".$sender." toSendNumbers - ".$nums." SendedNumbers - ".$numbers." message - ".$message." status - ".$stat." type - ".$type."\n";
 		//mysql_query("INSERT INTO `log3` (`key`, `sender`, `message`, `type`) VALUES ('$key', '$sender', '$message', '$type')") or die(mysql_error());

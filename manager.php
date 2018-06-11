@@ -101,7 +101,7 @@
 				$tmp = explode(";", $value);
 				$number = $tmp[0];
 				$msg = $tmp[1];
-				$nameSender = 0;
+				$nameSender = $name;
 			}
 			else
 			{

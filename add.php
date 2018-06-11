@@ -62,7 +62,7 @@ if($_SESSION['password'] == "19733791Zx")
 									<label>Выбор сервиса</label>
 									<select name='cmbService'  id="cmbService" title="Please Select Service" class="form-control">
 									  <option value="0">Routesms</option>
-									  <option value="1">Цифра</option>
+									  <!--<option value="1">Цифра</option>-->
 									</select>
 									<label for="text">Название</label><input id="name" name="name" class="form-control">
 									<label for="text">Логин</label><input id="login" name="login" class="form-control">
