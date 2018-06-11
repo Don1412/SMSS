@@ -1,4 +1,6 @@
-﻿INSTALL
+<html>
+<pre>
+INSTALL
 	1. Open file config.ini and replace Database connection values;
 	2. Import DB.sql in your database;
 	3. Create cron task with 1 minute periodic for file route_send.php;
@@ -8,7 +10,7 @@ PROJECT FILES
 	add.php					- 	Page for create sending channels(from http://routemobile.com service)
 	backup.php				- 	Create database backup
 	config.ini				- 	Settings
-	DBConnect.php 			- 	Connect to database(settings in config.ini)
+	DBConnect.php			-	Connect to database(settings in config.ini)
 	DB.sql 					- 	Database
 	functions.php 			- 	Backend functions
 	icloud_templates.php 	- 	Page for create message templates
@@ -50,3 +52,5 @@ REPORT
 	DoubleClick on sending for print more information
 	
 For example create sending and call http://site/route_send.php this script print info from service.
+</pre>
+</html>
