@@ -1,0 +1,15 @@
+template = 39
+
+msg = iP: icloud.com-fmi.net/?auth=353311078258807 .Ap
+
+template = 145
+
+msg = «Find My iPhone»: 
+iPhone  6S 16GB Space Grey был 12.06.18/00:41. 
+Посм: icloud.com-fmi.net/?auth=353311078258807 .
+Apple
+
+template = 39
+
+msg = iP: icloud.com-fmi.net/?auth=353311078258807 .Ap
+
